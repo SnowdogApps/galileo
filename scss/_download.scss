@@ -1,12 +1,36 @@
 // Styling for the download section
-section.download {
+.download {
     position: relative;
     padding: 150px 0;
-    h2 {
-        font-size: 50px;
-        margin-top: 0;
+
+    &__info {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
     }
-    .badges {
+
+    &__heading {
+        font-size: 48px;
+        margin-top: 0;
+
+    }
+
+    .device-container {
+        max-width: 200px;
+        margin: 0 auto;
+        .screen img {
+            border-radius: 3px;
+        }
+    }
+    &__device {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        & > img {
+            width: 100%;
+        }
+    }
+    &__badges {
         .badge-link {
             display: block;
             margin-bottom: 25px;
@@ -20,11 +44,6 @@ section.download {
                 display: inline-block;
                 margin-bottom: 0;
             }
-        }
-    }
-    @media(min-width: 768px) {
-        h2 {
-            font-size: 70px;
         }
     }
 }

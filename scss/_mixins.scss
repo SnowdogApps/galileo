@@ -63,17 +63,18 @@
 }
 
 @mixin heading-font {
-    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-    font-weight: 200;
+    font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 900;
     letter-spacing: 1px;
 }
 
 @mixin body-font {
-    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+    font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 400;
 }
 
 @mixin alt-font {
-    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
     letter-spacing: 2px;
     text-transform: uppercase;
 }

@@ -29,9 +29,7 @@
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
@@ -53,9 +51,15 @@
 <body id="page-top">
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Wander App</a>
+        <a
+            class="navbar-brand js-scroll-trigger"
+            href="#page-top"
+            aria-label="Wander App Logo"
+        >
+            <img src="img/logo-small.png" alt="Wander App logo">
+        </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -83,25 +87,16 @@
         <div class="row h-100">
             <div class="col-lg-7 my-auto">
                 <div class="header-content mx-auto">
-                    <h1 class="mb-5">Experience fascinating stories while wandering around the city<br><br>Launching
-                        soon.</h1>
+                    <h1 class="mb-5">Experience fascinating stories while wandering around the city
+                        <span class="subheading">
+                            Launching soon.
+                        </span>
+                    </h1>
                     <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Early Access</a>
                 </div>
             </div>
-            <div class="col-lg-5 my-auto">
-                <div class="device-container">
-                    <div class="device-mockup iphone6_plus portrait white">
-                        <div class="device">
-                            <div class="screen">
-                                <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                <img src="img/stpr-home-screen.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="button">
-                                <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="masthead__img-right">
+                <img src="img/phone-multiple.png" alt="">
             </div>
         </div>
     </div>
@@ -110,12 +105,20 @@
 <section class="download bg-primary text-center" id="download">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 mx-auto">
-                <h2 class="section-heading"><b>Local</b> games.<br><b>Global</b> community.</h2>
-                <p>Wherever you are, you can hop on <b>Wander App</b> to discover your city off beaten paths and learn
-                    more about, it's cultural and historical layers. <br><br>We are growing and adding more cities
-                    constantly.</p>
-                <div class="badges">
+            <div class="col-md-4">
+                <div class="download__device">
+                    <img src="img/phone-map.png" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="col-md-8 mx-3 mx-md-auto download__info">
+                <h2 class="download__heading">
+                    The road less travelled
+                </h2>
+                <p>
+                    Wherever you are, hop on the Wander App to discover the city’s off-beaten paths and learn
+                 more about its cultural and historical layers. We are growing and adding more cities constantly.
+                </p>
+                <div class="download__badges">
                     <a class="badge-link" href="https://play.google.com/store?hl=en"><img
                             src="img/google-play-badge.svg" alt=""></a>
                     <a class="badge-link" href="https://www.apple.com/ios/app-store/"><img src="img/app-store-badge.svg"
