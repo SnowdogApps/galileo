@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="15.999" viewBox="0 0 20 15.999">
+    <defs>
+        <style>
+            .cls-1{fill:none;clip-rule:evenodd}.cls-2{fill:#0a0f18}.cls-3{clip-path:url(#clip-path)}.cls-4{clip-path:url(#clip-path-2)}
+        </style>
+        <clipPath id="clip-path">
+            <path id="Path_764" d="M7.13 3.718L.766-3.117a1.013 1.013 0 0 1 0-1.368l1.285-1.366a.873.873 0 0 1 1.286 0l4.437 4.784 9.89-10.651a.873.873 0 0 1 1.286 0l1.286 1.368a1.008 1.008 0 0 1 0 1.364L8.415 3.718a.873.873 0 0 1-1.286 0" class="cls-1" data-name="Path 764" transform="translate(-.5 11.999)"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <path id="Path_763" d="M-52 603.382h480.024V-378H-52z" class="cls-2" data-name="Path 763" transform="translate(52 378)"/>
+        </clipPath>
+    </defs>
+    <g id="ptaszek" transform="translate(-.5 11.999)">
+        <g id="Group_446" class="cls-3" data-name="Group 446" transform="translate(.5 -11.999)">
+            <g id="Group_445" class="cls-4" data-name="Group 445" transform="translate(-70.003 -488.025)">
+                <path id="Path_762" d="M-4.5-17h33.334v29.334H-4.5z" class="cls-2" data-name="Path 762" transform="translate(67.836 498.358)"/>
+            </g>
+        </g>
+    </g>
+</svg>
