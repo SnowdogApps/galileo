@@ -1,0 +1,21 @@
+.work-with-us {
+    background-color: $main-dark;
+
+    > * {
+        color: $white-light;
+    }
+
+    &__heading {
+        text-align: center;
+    }
+
+    &__box {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+
+    p {
+        text-align: center;
+    }
+}
