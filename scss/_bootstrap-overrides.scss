@@ -43,3 +43,18 @@
 section.features .section-heading {
     margin-bottom: 0px;
   }
+
+
+// overrides - creator
+
+.masthead-creators {
+    height: 100vh;
+    max-height: 700px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#download-creator {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}

@@ -41,7 +41,13 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Wander App</a>
+      <a
+            class="navbar-brand js-scroll-trigger"
+            href="#page-top"
+            aria-label="Wander App Logo"
+        >
+            <img src="img/logo-small.png" alt="Wander App logo">
+      </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -62,29 +68,20 @@
     </div>
   </nav>
 
-  <header class="masthead">
+  <header class="masthead masthead-creators">
     <div class="container h-100">
       <div class="row h-100">
         <div class="col-lg-7 my-auto">
           <div class="header-content mx-auto">
-            <h1 class="mb-5">Create, share and play.<br><br><span class="subheading">Become a part of our community.</span></h1>
+            <h1 class="mb-5">Be a pro wanderer.<br><br>
+              <span class="subheading">Create, share and play missions, with added benefits.
+              </span>
+            </h1>
             <a href="#features" class="btn btn-outline btn-xl js-scroll-trigger">Become a creator!</a>
           </div>
         </div>
-        <div class="col-lg-5 my-auto">
-          <div class="device-container">
-            <div class="device-mockup iphone6_plus portrait white">
-              <div class="device">
-                <div class="screen">
-                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                  <img src="img/stpr-home-screen.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="button">
-                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="masthead__img-right">
+          <img src="img/phone-explore.png" alt="wander app explore screen">
         </div>
       </div>
     </div>
@@ -93,8 +90,8 @@
   <section class="features" id="features">
     <div class="container">
       <div class="section-heading text-center">
-        <h2>Creator Rewards</h2>
-        <p class="text-muted">Do you love traveling? Love your home city? Help us expand STPR around the world by becoming a STPR Creator. <br>Contribute your local knowledge and experience by creating your own missions, which are then added to the official app for all to play.</p>
+        <h2>Mission possible.</h2>
+        <p class="text-muted">Are you a local guide, frequent traveller or fan of your city? Contribute your local knowledge and experience by creating your own missions, which are then added to the official app for all to play.</p>
         <br>
         <hr>
       </div>
@@ -103,23 +100,29 @@
             <div class="row">
               <div class="col-lg-4">
                 <div class="feature-item">
-                  <i class="icon-user text-primary"></i>
-                  <h3></h3>
-                  <p class="text-muted">Become a Creator and get exclusive access to bonus app content, meet the Wander App developers and help us improve the app for all players.</p>
+                  <div class="work-with-us__img-wrapper mb-3">
+                    <img src="img/icon-bonus.png" alt="icon bonus content">
+                  </div>
+                  <h3>Bonus content</h3>
+                  <p class="text-muted">Get exclusive access to bonus app content, meet the Wander App developers and help us improve the app for all players.</p>
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="feature-item">
-                  <i class="icon-mustache text-primary"></i>
-                  <h3></h3>
-                  <p class="text-muted">Get a special avatar badge that shows other users an expert traveler or city expert is close by! You will also have early access to test new updates, games and features!</p>
+                  <div class="work-with-us__img-wrapper mb-3">
+                    <img src="img/icon-be-pro.png" alt="icon go places">
+                  </div>
+                  <h3>Be a Pro wanderer</h3>
+                  <p class="text-muted">Get a special avatar badge and early access to test new updates, games and features!</p>
                 </div>
               </div>
             <div class="col-lg-4">
               <div class="feature-item">
-                <i class="icon-diamond text-primary"></i>
-                <h3></h3>
-                <p class="text-muted">Each time your mission will be finished by other player, you will receive a handful of in-game currency!</p>
+                  <div class="work-with-us__img-wrapper mb-3">
+                      <img src="img/icon-getpaid.png" alt="icon get paid">
+                  </div>
+                <h3>Get Paid</h3>
+                <p class="text-muted">When users purchase access to Wander app or your missions, you’ll be compensated for your work.</p>
               </div>
             </div>
           </div>
@@ -128,15 +131,38 @@
     </div>
   </section>
 
-  <section class="cta">
+  <section class="download bg-primary text-center" id="download-creator">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                  <div class="download__device">
+                      <img src="img/phone-logo.png" class="img-fluid" alt="wander app logo on iphone screen">
+                  </div>
+              </div>
+              <div class="col-md-8 mx-3 mx-md-auto download__info">
+                  <h2 class="download__heading">
+                      Start creating.
+                  </h2>
+                  <p>
+                    Got a great city mission or guide in mind? Get in touch with us to start creating! You'll be a Pro Wanderer in no time.
+                  </p>
+                  <a href="mailto:galileo@snow.dog" class="btn btn-outline btn-xl js-scroll-trigger">Contact us today!</a>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- <section class="cta">
     <div class="cta-content">
       <div class="container">
-        <h2>Become a creator</h2>
+        <h2>Start creating</h2>
         <a href="mailto:galileo@snow.dog" class="btn btn-outline btn-xl js-scroll-trigger">Contact us today!</a>
       </div>
     </div>
     <div class="overlay"></div>
-  </section>
+  </section> -->
+
+
   <section class="contact bg-light" id="subscribe">
     <h2>Subscribe</h2>
     <div class="container">
